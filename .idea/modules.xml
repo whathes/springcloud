@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud.iml" filepath="$PROJECT_DIR$/SpringCloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/Time/Time.iml" filepath="$PROJECT_DIR$/Time/Time.iml" />
       <module fileurl="file://$PROJECT_DIR$/client-0/client-0.iml" filepath="$PROJECT_DIR$/client-0/client-0.iml" />
       <module fileurl="file://$PROJECT_DIR$/client-1/client-1.iml" filepath="$PROJECT_DIR$/client-1/client-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/feign-service/feign-service.iml" filepath="$PROJECT_DIR$/feign-service/feign-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/server-0/server-0.iml" filepath="$PROJECT_DIR$/server-0/server-0.iml" />
       <module fileurl="file://$PROJECT_DIR$/server-consumer-01/server-consumer-01.iml" filepath="$PROJECT_DIR$/server-consumer-01/server-consumer-01.iml" />

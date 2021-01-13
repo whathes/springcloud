@@ -19,10 +19,10 @@
       <module name="client-0" target="1.8" />
       <module name="client-1" target="1.8" />
       <module name="config-server" target="1.8" />
-      <module name="eureka-server" target="1.8" />
       <module name="feign-service" target="1.8" />
       <module name="server-0" target="1.8" />
       <module name="server-consumer-01" target="1.8" />
+      <module name="SpringCloud" target="1.8" />
       <module name="Time" target="1.8" />
     </bytecodeTargetLevel>
   </component>
