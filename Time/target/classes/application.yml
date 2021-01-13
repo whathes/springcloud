@@ -1,0 +1,10 @@
+server:
+  port: 8810
+spring:
+  application:
+    name: Time-01
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springcloud?setUnicode=true&characterEncoding=utf8
+    data-username: root
+    data-password: huhuwang3
