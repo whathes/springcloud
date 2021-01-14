@@ -35,7 +35,7 @@
       <module name="client-1" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="feign-service" options="-parameters" />
-      <module name="flyway" options="" />
+      <module name="flyway" options="-parameters" />
       <module name="server-0" options="-parameters" />
       <module name="server-consumer-01" options="-parameters" />
     </option>
