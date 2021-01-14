@@ -8,6 +8,16 @@ spring:
     url: jdbc:mysql://localhost:3306/springcloud?setUnicode=true&characterEncoding=utf8
     data-username: root
     data-password: huhuwang3
+  flyway:
+    enabled: true
+    # 若连接的数据库非空库，是否初始化
+    baseline-on-migrate: true
+    # 是否开启校验(若开启校验，flyway在启动校验失败时会清空数据库中的表和删除表结构)
+    validate-on-migrate: false
+    # 默认脚本加载路径
+    locations: classpath:/static/migrate/
+    #存储初始化数据的表名
+    table: study_flyway_version
 eureka:
   instance:
     hostname: localhost #服务注册中心IP地址
