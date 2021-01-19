@@ -12,6 +12,7 @@
         <module>config-server</module>
         <module>feign-service</module>
         <module>flyway</module>
+        <module>kafka</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -39,7 +40,6 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter</artifactId>
         </dependency>
-
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
