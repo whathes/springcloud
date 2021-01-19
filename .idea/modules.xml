@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/feign-service/feign-service.iml" filepath="$PROJECT_DIR$/feign-service/feign-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/flyway/flyway.iml" filepath="$PROJECT_DIR$/flyway/flyway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka/kafka.iml" filepath="$PROJECT_DIR$/kafka/kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/server-0/server-0.iml" filepath="$PROJECT_DIR$/server-0/server-0.iml" />
       <module fileurl="file://$PROJECT_DIR$/server-consumer-01/server-consumer-01.iml" filepath="$PROJECT_DIR$/server-consumer-01/server-consumer-01.iml" />
     </modules>

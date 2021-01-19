@@ -8,6 +8,7 @@
     <file url="file://$PROJECT_DIR$/feign-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flyway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flyway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kafka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/server-0/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/server-consumer-01/src/main/java" charset="UTF-8" />
   </component>

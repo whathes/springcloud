@@ -12,6 +12,7 @@
         <module name="server-0" />
         <module name="client-1" />
         <module name="client-0" />
+        <module name="kafka" />
         <module name="Time" />
         <module name="server-consumer-01" />
       </profile>
@@ -22,6 +23,7 @@
       <module name="config-server" target="1.8" />
       <module name="feign-service" target="1.8" />
       <module name="flyway" target="1.8" />
+      <module name="kafka" target="1.8" />
       <module name="server-0" target="1.8" />
       <module name="server-consumer-01" target="1.8" />
       <module name="SpringCloud" target="1.8" />
@@ -36,6 +38,7 @@
       <module name="config-server" options="-parameters" />
       <module name="feign-service" options="-parameters" />
       <module name="flyway" options="-parameters" />
+      <module name="kafka" options="-parameters" />
       <module name="server-0" options="-parameters" />
       <module name="server-consumer-01" options="-parameters" />
     </option>
