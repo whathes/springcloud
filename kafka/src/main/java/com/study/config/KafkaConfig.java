@@ -30,12 +30,6 @@ public class KafkaConfig {
     @Value("${spring.kafka.consumer.enable-auto-commit}")
     private Boolean autoCommit;
 
-    @Value("${spring.kafka.consumer.auto-offset-reset}")
-    private String autoOffsetReset;
-
-    @Value("${spring.kafka.consumer.max-poll-records}")
-    private Integer maxPollRecords;
-
     public Map<String, Object> producerConfigs() {
 
         Map<String, Object> props = new HashMap<>();

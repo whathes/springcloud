@@ -3,12 +3,14 @@ package com.study.controller;
 import org.apache.kafka.clients.KafkaClient;
 import org.apache.kafka.clients.admin.AdminClient;
 import org.apache.kafka.clients.admin.KafkaAdminClient;
+import org.apache.kafka.clients.admin.ListTopicsResult;
 import org.apache.kafka.clients.admin.NewTopic;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaAdmin;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
+import java.util.Set;
 
 @RestController
 public class TopicController {
@@ -24,4 +26,14 @@ public class TopicController {
         return "new topic created!";
     }
 
+
+    @RequestMapping("/topic/list")
+    public void getAllTopic() throws Exception {
+        ListTopicsResult listTopics = adminClient.listTopics();
+        Set<String> topics = listTopics.names().get();
+
+        for (String topic : topics) {
+            System.err.println(topic);
+        }
+    }
 }
