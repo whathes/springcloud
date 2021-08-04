@@ -15,7 +15,7 @@ public class ProducerController {
 
     @RequestMapping(value = "/sendHello",method = RequestMethod.GET)
     public String send(){
-        template.send("hello","world");
+        template.send("hello1","world");
         return "OK";
     }
 

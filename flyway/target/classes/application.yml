@@ -1,0 +1,28 @@
+server:
+  port: 8710
+spring:
+  application:
+    name: flyway
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springcloud?serverTimezone=UTC&setUnicode=true&characterEncoding=utf8
+    username: root
+    password: huhuwang3
+  flyway:
+    enabled: true
+    # 若连接的数据库非空库，是否初始化
+    baseline-on-migrate: true
+    # 是否开启校验(若开启校验，flyway在启动校验失败时会清空数据库中的表和删除表结构)
+    validate-on-migrate: false
+    # 默认脚本加载路径
+    locations: classpath:/db/migration
+    #存储初始化数据的表名
+    table: study_flyway_version
+eureka:
+  instance:
+    hostname: localhost #服务注册中心IP地址
+  client:
+    registerWithEureka: true #是否向服务注册中心注册自己
+    fetchRegistry: true #是否检索服务
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:8700/eureka/

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e18d116b-c90c-4d5a-9c49-5795eaf18040" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/libraries/Maven__io_netty_netty_all_4_1_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/libraries/Maven__org_springframework_spring_websocket_5_2_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Time/src/main/java/com/study/cfg/NioWebSocketChannelInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Time/src/main/java/com/study/cfg/NioWebSocketHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Time/src/main/java/com/study/cfg/NioWebSocketServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Time/src/main/java/com/study/cfg/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Time/src/main/java/com/study/deadLock/DeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Time/src/main/java/com/study/sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Time/src/main/java/com/study/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Time/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Time/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Time/src/test/java/com/study/TimeTestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Time/src/test/java/com/study/TimeTestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../kafka/src/main/java/com/study/controller/ProducerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../kafka/src/main/java/com/study/controller/ProducerController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\apache-maven-3.5.4\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../../maven/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1sjgSeV5JmXb3vO9mIToWBsAT2h" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e18d116b-c90c-4d5a-9c49-5795eaf18040" name="默认的" comment="" />
+      <created>1621391414000</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621391414000</updated>
+      <workItem from="1621391415804" duration="33000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>
